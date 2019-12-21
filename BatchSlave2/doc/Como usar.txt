@@ -1,0 +1,14 @@
+O BatchSlave tem o intuito de facilitar a execução mecanica (S e enter 4ever)
+do batch e não exclui de maneira alguma a necessidade da presença de um cpd.
+
+
+para utilizar da primeira vez siga primeiro os passos de instalação
+feita a instalação abra o putty dentro da tela '02' 
+
+1) primeiro passo é posicionar a tela, use o script BatchSlave2/print.py para verificar a posição
+até que esteja no lugar certo.
+
+2) depois inicie um job, e execute o script BatchSlave2/executajob.py
+esse script vai seguir a execução do job até que alguma informação que precise ser anotada
+apareça na tela neste caso o script será pausado até que o cpd de continuidade
+ao fim de cada job o cpd deve finalizar e iniciar um novo

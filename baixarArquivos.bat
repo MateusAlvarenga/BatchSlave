@@ -1,0 +1,2 @@
+cd BatchSlave2
+python baixarArquivos.py

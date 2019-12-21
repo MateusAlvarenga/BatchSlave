@@ -1,0 +1,59 @@
+#instale:
+-python
+-pip
+
+
+--
+pynput ducumentaçao
+https://pythonhosted.org/pynput/index.html
+
+--
+uso do mouse
+
+from pynput.mouse import Button, Controller
+mouse = Controller()
+mouse.position = (x,y)
+
+mouse.click("Botao","quantidade de clicks")
+
+mouse.click(Button.left,1)
+mouse.click(Button.left,2)
+mouse.click(Button.right,1)
+mouse.click(Button.right,2)
+mouse.press(Button.right)
+mouse.release(Button.right)
+mouse.scroll(0,2)
+
+--
+uso do teclado
+from pynput.keyboard import Key, Controller
+keyboard = Controller()
+# Press and release space
+keyboard.press(Key.space)
+keyboard.release(Key.space)
+# Type two upper case As
+keyboard.press('A')
+keyboard.release('A')
+with keyboard.pressed(Key.shift):
+    keyboard.press('a')
+    keyboard.release('a')
+
+# Type 'Hello World' using the shortcut type method
+keyboard.type('Hello World')
+
+
+        #print('1'+str(text.rfind('Processar') != -1 )) print('2'+str(text.rfind('Impressora') != -1)) print('3'+str(((text.rfind('S=Sim') != -1) and (text.rfind('N=Nao') != -1))))
+    
+        #print(pytesseract.image_to_string(Image.fromarray(imagem), lang='port'))
+
+          # #testar
+        # if(erros > 1):
+        #     im=ImageGrab.grab(bbox=(630,270,1180,600)) 
+        # else:           
+        #     im=ImageGrab.grab(bbox=(630,80,1600,600)) 
+
+
+        if(job == 1):
+        im=ImageGrab.grab(bbox=(780,400,1310,550)) 
+    else:            
+        im=ImageGrab.grab(bbox=(780,95,1510,550))

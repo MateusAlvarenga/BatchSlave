@@ -1,0 +1,23 @@
+//dependencias do projeto
+python, p?i?p? ?e? ?v?i?r?t?u?a?l?e?n?v?
+
+//configurações iniciais (setup)
+virtualenv venv --distribute
+virtualenv -p python batchSlave
+source batchSlave/bin/activate 
+OU source batchSlave/Scripts/activate
+pip install -r requirements.txt
+
+//instalar dependencias
+pip install -r requirements.txt
+
+//exportar/atualizar dependencias
+pip freeze > requirements.txt
+
+//ativar virtual env
+source batchSlave/bin/activate
+prompt $g
+
+ 
+//recomendação de fonte para o putty (melhor identificação que encontrei) 
+consolas negrito 11

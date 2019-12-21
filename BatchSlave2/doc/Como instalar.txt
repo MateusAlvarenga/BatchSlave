@@ -1,0 +1,22 @@
+!copie esta pasta para um diretorio local em sua maquina
+
+instale o python e o tesseract, ambos estão na pasta Cpd$\instaladores
+de preferencia estas versões:
+python-3.7.3
+tesseract-ocr-w64-setup-v5.0.0-alpha.20190623
+
+
+obs:
+>python: não deixe de setar as variaveis de ambiente (no inicio marque a opção SET python to PATH) ou faça isso manualmente
+>tesseract-ocr: não deixe de instalar o pacote de idioma portuguese em additional language data e setar a variavel de ambiente 
+
+para saber se a instalação deu certo abra o cmd e execute os comandos:
+python --version
+pip --version
+tesseract --version
+
+se sim prosseguir
+
+execute o .bat instalar_dependencias.bat 
+
+e pronto XD
