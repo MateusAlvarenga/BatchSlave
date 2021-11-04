@@ -1,3 +1,8 @@
+
+O BatchSlave tem o intuito de facilitar a execução mecanica de processamentos em lote
+
+
+Instalação
 !copie esta pasta para um diretorio local em sua maquina
 
 instale o python e o tesseract, ambos estão na pasta Cpd$\instaladores
@@ -22,12 +27,6 @@ execute o .bat instalar_dependencias.bat
 
 //configure seu putty com
 consolas bold 11-point
-e pronto XD
-
-
-O BatchSlave tem o intuito de facilitar a execução mecanica (S e enter 4ever)
-do batch e não exclui de maneira alguma a necessidade da presença de um cpd.
-
 
 para utilizar da primeira vez siga primeiro os passos de instalação
 feita a instalação abra o putty dentro da tela '02' 
